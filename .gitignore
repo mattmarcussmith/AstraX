@@ -1,0 +1,195 @@
+# --------------------------
+# macOS specific files
+# --------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# --------------------------
+# Rider/JetBrains IDE specific files
+# --------------------------
+.idea/
+*.sln.DotSettings
+*.sln.DotSettings.user
+.idea/*
+.idea_modules/
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/description.html
+
+# Local History for Rider
+.LocalHistory/
+
+# Rider logs
+*.log
+
+# Rider project file for solution
+*.sln.iml
+
+# --------------------------
+# Visual Studio specific files
+# --------------------------
+.vs/
+.vscode/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+bld/
+*.pdb
+*.exe
+*.dll
+*.local
+*.log
+*.cache
+*.msp
+*.msi
+*.tmp
+
+# Visual Studio profiler
+*.vsp
+*.vspx
+*.sap
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# ---------------
+# Blazor specific files
+# ---------------
+/wwwroot/
+/wwwroot/dist/
+/wwwroot/js/
+/wwwroot/css/
+/wwwroot/lib/
+/node_modules/
+
+# Blazor publish output
+.publish/
+
+# Static website output
+/bin/
+*.gz
+*.br
+*.map
+
+# --------------------------
+# ASP.NET Core/Blazor server-side files
+# --------------------------
+*.db
+*.bak
+*.bak2
+appsettings.json
+appsettings.*.json
+publish/
+AppPackages/
+project.lock.json
+artifacts/
+
+# --------------------------
+# NuGet packages
+# --------------------------
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.assets.json
+project.fragment.lock.json
+project.nuget.cache
+
+# Uncomment if using global tools like dotnet-ef or dotnet-watch
+# .dotnet/
+
+# --------------------------
+# Entity Framework migrations
+# --------------------------
+/Migrations/
+efcache/
+
+# --------------------------
+# log files and other cache files
+# --------------------------
+*.log
+*.log.*
+*.swp
+*.swo
+*.sln.docstates
+
+# --------------------------
+# Temporary files
+# --------------------------
+~$*
+*.tmp
+*.bak
+*.old
+
+# --------------------------
+# Yarn and npm dependencies
+# --------------------------
+node_modules/
+yarn-error.log
+yarn-debug.log*
+
+# --------------------------
+# Docker specific files
+# --------------------------
+Dockerfile
+docker-compose.yml
+.dockerignore
+.env
+
+# --------------------------
+# Azure, App Service, Cloud Artifacts
+# --------------------------
+project.lock.json
+publishoutput/
+*.azurePubxml
+*.pubxml
+*.publishproj
+
+# --------------------------
+# Miscellaneous
+# --------------------------
+Thumbs.db
+desktop.ini
+*.stackdump
+npm-debug.log
+.DS_Store
+*.pidb
+*.pidb.meta
+*.pfx
+*.publishsettings
+
+# Ignore backups of versioned files
+*.bak
+*.backup

@@ -190,6 +190,11 @@ npm-debug.log
 *.pfx
 *.publishsettings
 
+# Ignore launchSettings.json in both API and UI projects
+
+AstraX.Api/Properties/launchSettings.json
+AstraX.Ui/Properties/launchSettings.json
+
 # Ignore backups of versioned files
 *.bak
 *.backup

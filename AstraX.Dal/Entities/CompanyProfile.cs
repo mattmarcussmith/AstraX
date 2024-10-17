@@ -31,7 +31,9 @@ public class CompanyProfile
 
     // User-Specific Data (Not from Alpha Vantage API)
     public int Shares { get; set; }
+    // InvestmentValue for current stock - CASH available if shares sold
     public decimal InvestmentValue => Shares * CurrentPrice;
+    // Annual Dividend paid out by company - quarterly or yearly
     public decimal AnnualDividendValue => Shares * DividendPerShare;
 
     // Navigation properties for related financial data

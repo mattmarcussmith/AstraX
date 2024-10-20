@@ -25,6 +25,17 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+var allowRedirect = app.Configuration["AllowRedirect"];
+app.Use(async (contextCallback, next) =>
+{
+    if (contextCallback.Request.Path == "/")
+    {
+        contextCallback.Response.Redirect(allowRedirect);
+        return;
+    }
+    await next();
+});
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -33,6 +44,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
 
 app.UseAuthorization();
 
